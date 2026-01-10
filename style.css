@@ -1,0 +1,80 @@
+/* 
+Arquivo: Style.css
+definição: Estilos principais do site Teste*/
+
+
+.corpo{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#142030,#1E3442,#732553,#E9D8C8);
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+img{
+    width: 200px;
+    border-radius: 10px;
+}
+.apresentacao{
+    color:#E9D8C8;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #784617;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.lista1 {
+    font-weight: bold;
+    font-size: 1rem;
+    width: 1500px;
+    height: 300px;
+    opacity: 85%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+#caixa1{
+    color: #E9D8C8;
+    padding-right: 20px;
+    padding: 10px;
+}
+#listaconteudos{
+    display: grid;
+    grid-template-columns: 
+    150px 150px 150px 150px 150px 150px 150px 150px 150px;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #E9D8C8;
+    font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+}
+
+
+#titulo1{
+    color: #E9D8C8;
+    padding: 10px;
+    padding-left: 10px ;    
+}
+
+#caixa2{
+    text-align: center;
+    color: #1E3442;
+    padding: 20px;
+    border: 2px solid #784617;
+    width: 900px;
+    height: 100px;
+}
+
+#link:hover{
+    font-size:xx-large;
+    color: #E9D8C8;
+}
+
+
