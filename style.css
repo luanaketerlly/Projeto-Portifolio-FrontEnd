@@ -19,7 +19,7 @@ definição: Estilos principais do site Teste*/
     gap: 10px;
     margin: 10px;
 }
-img{
+#fotoperfil{
     width: 200px;
     border-radius: 10px;
 }
@@ -60,15 +60,16 @@ img{
     padding-right: 20px;
     padding: 10px;
 }
-#caixa2{
-    text-align: center;
-    color: #1E3442;
-    padding: 20px;
-    border: 2px solid #784617;
-    width: 900px;
-    height: 100px;
+#listareferencias{
+    width: 450px;
+    padding: 70px;
+    background-image: url("fundo1.jpg");
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-position: center;
+    opacity: initial;
+    align-items: center;
 }
-
 #link:hover{
     font-size:xx-large;
     color: #E9D8C8;
